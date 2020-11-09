@@ -62,8 +62,7 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.bookviewholder
             imgBook = itemView.findViewById(R.id.item_book_img);
             title = itemView.findViewById(R.id.item_book_title);
             author = itemView.findViewById(R.id.item_book_author);
-            pages = itemView.findViewById(R.id.item_book_pagesrev);
-            rate = itemView.findViewById(R.id.item_book_score);
+            pages = itemView.findViewById(R.id.item_book_rev);
             ratingBar = itemView.findViewById(R.id.item_book_ratingbar);
 
 
