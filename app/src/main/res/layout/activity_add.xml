@@ -20,9 +20,11 @@
 
     <EditText
         android:id="@+id/ed_title"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
         android:background="@drawable/edit"
         android:backgroundTint="#EEEEEE"
         android:inputType="text"
@@ -44,9 +46,11 @@
 
     <EditText
         android:id="@+id/ed_category"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
         android:background="@drawable/edit"
         android:backgroundTint="#EEEEEE"
         android:inputType="text"
@@ -68,20 +72,22 @@
 
     <EditText
         android:id="@+id/editContent"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
         android:background="@drawable/edit_content"
         android:backgroundTint="#EEEEEE"
-        android:hint="Nội dụng"
+        android:gravity="top|left"
         android:inputType="text"
-        android:padding="100dp"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_description" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnNext"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="Next"
